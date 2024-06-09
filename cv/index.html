@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <div class="info-box">
+                <img src="./img/c13d695d8c399bdd24dfd4a44dfc7781.png" alt="avatar" class="avatar" />
+                <div class="info-text">
+                    <h1>Иван Петров</h1>
+                    <p>Frontend developer</p>
+                </div>
+            </div>
+            <div class="info-contacts">
+                <h2>Контакты</h4>
+                    <a href="" target="_blank">+79223344455</a>
+                    <a target="_blank" href="">email@yandex.ru</a>
+            </div>
+        </div>
+        <div class="info-line"></div>
+        <section class="about">
+            <p class="text"><span class="text-bold">Немного обо мне:</span> это текст-"рыба", часто используемый в
+                печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
+                Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять
+                веков...</p>
+        </section>
+        <section class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Хобби</th>
+                        <th>Социальные сети</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Чтение</li>
+                                <li>Путешествия</li>
+                                <li>Настольные игры</li>
+                                <li>Плавание</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ol>
+                                <li><a href="https://vk.com">VK</a></li>
+                                <li><a href="https://instagram.com">Instagram</a></li>
+                                <li><a href="https://telegram.org">Telegram</a></li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="card">
+            <h2>Интересующие технологии</h2>
+            <div class="card-box">
+                <div class="card-item">
+                    <div class="item-img">
+                        <img src="./img/js.png" alt="js-logo">
+                    </div>
+                    <div class="item-text">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="item-img">
+                        <img src="./img/phiton.png" alt="js-logo">
+                    </div>
+                    <div class="item-text">
+                        <p>Python</p>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="item-img">
+                        <img src="./img/viu.png" alt="js-logo">
+                    </div>
+                    <div class="item-text">
+                        <p>VueJS </p>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="item-img">
+                        <img src="./img/postgresql.png" alt="js-logo">
+                    </div>
+                    <div class="item-text">
+                        <p>PostgreSQL</p>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="item-img">
+                        <img src="./img/docker.png" alt="js-logo">
+                    </div>
+                    <div class="item-text">
+                        <p>Docker</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="contact">
+            <h2>Форма обратной связи</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="phone" id="phone" placeholder="Телефон">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="text" rows="2" cols="15" placeholder="Ваш вопрос"></textarea>
+                </div>
+                <div class="btn-position">
+                    <input class="btn" type="submit" value="Отправить">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
