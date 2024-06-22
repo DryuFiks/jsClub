@@ -1,0 +1,61 @@
+.form-title {
+    width: 740px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #5A9645;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 7px 0;
+    text-align: center;
+}
+
+
+.form-info {
+    width: 363px;
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    background: transparent;
+    color: #B8B8B8;
+    padding: 9px 280px 9px 14px;
+    font-size: 14px;
+}
+
+.form-massage {
+    width: 740px;
+    border: 1px solid #B8B8B8;
+    border-radius: 5px;
+    background: transparent;
+    color: #B8B8B8;
+    padding: 9px 630px 70px 14px;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.row {
+    padding: 0 30px;
+    display: flex;
+    gap : 14px;
+    margin: 15px 0;
+}
+
+.btn-position{
+    text-align: center;
+}
+
+.btn {
+    margin: 14px auto;
+    background: #5A9645;
+    padding: 10px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

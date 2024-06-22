@@ -1,0 +1,47 @@
+.about-me .about-me-box {
+    margin: 0 30px 67px 30px;
+    width: 740px;
+    border: 1px solid #5A9645;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.about-me .box-head-row,
+.box-body-row {
+    border: 0.5px solid #5A9645;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+
+.about-me .box-head {
+    color: #5A9645;
+}
+
+.about-me .box-body {
+    height: 110px;
+}
+
+.about-me .about-me-link{
+    color: #000;
+}
+
+.about-me .about-me-link:hover,
+.social-contacts-list .list-item:hover {
+    text-decoration: none;
+    color: #5A9645;
+    cursor: pointer;
+}
+
+.about-me tbody {
+    padding: 0 24%;
+}
+
+.about-me .social-contacts-list,
+.about-me .hobby-list {
+    display: inline-block;
+    text-align: start;
+}

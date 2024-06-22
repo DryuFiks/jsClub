@@ -1,0 +1,17 @@
+/* base */
+@import url("base.css");
+
+/* info */
+@import url("info.css");
+
+/* contacts */
+@import url("contacts.css");
+
+/* about-me */
+@import url("aboutMe.css");
+
+/* card */
+@import url("card.css");
+
+/* feedback-form */
+@import url("feedbackForm.css");

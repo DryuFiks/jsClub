@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>CV</title>
 </head>
 
@@ -15,16 +15,16 @@
     <div class="container">
         <div class="info">
             <div class="info-box">
-                <img src="./img/c13d695d8c399bdd24dfd4a44dfc7781.png" alt="avatar" class="avatar" />
+                <img src="./img/avatar.jpg" alt="avatar" class="avatar" />
                 <div class="info-text">
-                    <h1>Иван Петров</h1>
-                    <p>Frontend developer</p>
+                    <h1 class="name">Андрей Иванцов</h1>
+                    <p class="profession">Frontend developer</p>
                 </div>
             </div>
             <div class="info-contacts">
-                <h2>Контакты</h4>
-                    <a href="" target="_blank">+79223344455</a>
-                    <a target="_blank" href="">email@yandex.ru</a>
+                <h2 class="contacts-title">Контакты</h4>
+                    <a class="contacts-link" href="" target="_blank">+79505066025</a>
+                    <a class="contacts-link" target="_blank" href="">ivantsov1997@mail.ru</a>
             </div>
         </div>
         <div class="info-line"></div>
@@ -35,29 +35,29 @@
                 Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять
                 веков...</p>
         </section>
-        <section class="table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Хобби</th>
-                        <th>Социальные сети</th>
+        <section class="about-me">
+            <table class="about-me-box">
+                <thead class="box-head">
+                    <tr class="box-column">
+                        <th class="box-head-row">Хобби</th>
+                        <th class="box-head-row">Социальные сети</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>Чтение</li>
-                                <li>Путешествия</li>
-                                <li>Настольные игры</li>
-                                <li>Плавание</li>
+                <tbody class="box-body">
+                    <tr class="box-column">
+                        <td class="box-body-row">
+                            <ul class="hobby-list">
+                                <li class="list-item">Катание на роликах</li>
+                                <li class="list-item">Путешествия</li>
+                                <li class="list-item">Настольные игры</li>
+                                <li class="list-item">Компьютерные игры</li>
                             </ul>
                         </td>
-                        <td>
-                            <ol>
-                                <li><a href="https://vk.com">VK</a></li>
-                                <li><a href="https://instagram.com">Instagram</a></li>
-                                <li><a href="https://telegram.org">Telegram</a></li>
+                        <td class="box-body-row">
+                            <ol class="social-contacts-list">
+                                <li class="list-item"><a class="about-me-link" href="https://vk.com">VK</a></li>
+                                <li class="list-item"><a class="about-me-link" href="https://instagram.com">Instagram</a></li>
+                                <li class="list-item"><a class="about-me-link" href="https://telegram.org">Telegram</a></li>
                             </ol>
                         </td>
                     </tr>
@@ -65,64 +65,64 @@
             </table>
         </section>
         <section class="card">
-            <h2>Интересующие технологии</h2>
+            <h2 class="form-title">Интересующие технологии</h2>
             <div class="card-box">
                 <div class="card-item">
                     <div class="item-img">
-                        <img src="./img/js.png" alt="js-logo">
+                        <img class="item-img-logo" src="./img/js.png" alt="js-logo">
                     </div>
                     <div class="item-text">
-                        <p>JavaScript</p>
+                        <p class="item-name">JavaScript</p>
                     </div>
                 </div>
                 <div class="card-item">
                     <div class="item-img">
-                        <img src="./img/phiton.png" alt="js-logo">
+                        <img class="item-img-logo" src="./img/phiton.png" alt="js-logo">
                     </div>
                     <div class="item-text">
-                        <p>Python</p>
+                        <p class="item-name">Python</p>
                     </div>
                 </div>
                 <div class="card-item">
                     <div class="item-img">
-                        <img src="./img/viu.png" alt="js-logo">
+                        <img class="item-img-logo" src="./img/viu.png" alt="js-logo">
                     </div>
                     <div class="item-text">
-                        <p>VueJS </p>
+                        <p class="item-name">VueJS </p>
                     </div>
                 </div>
                 <div class="card-item">
                     <div class="item-img">
-                        <img src="./img/postgresql.png" alt="js-logo">
+                        <img class="item-img-logo" src="./img/postgresql.png" alt="js-logo">
                     </div>
                     <div class="item-text">
-                        <p>PostgreSQL</p>
+                        <p class="item-name">PostgreSQL</p>
                     </div>
                 </div>
                 <div class="card-item">
                     <div class="item-img">
-                        <img src="./img/docker.png" alt="js-logo">
+                        <img class="item-img-logo" src="./img/docker.png" alt="js-logo">
                     </div>
                     <div class="item-text">
-                        <p>Docker</p>
+                        <p class="item-name">Docker</p>
                     </div>
                 </div>
             </div>
 
         </section>
-        <section class="contact">
-            <h2>Форма обратной связи</h2>
+        <section class="feedback-form">
+            <h2 class="form-title">Форма обратной связи</h2>
             <form action="/">
                 <div class="row">
                     <div class="form-group">
-                        <input type="text" id="name" placeholder="Ваше имя">
+                        <input class="form-info" type="text" id="name" placeholder="Ваше имя">
                     </div>
                     <div class="form-group">
-                        <input type="phone" id="phone" placeholder="Телефон">
+                        <input class="form-info" type="phone" id="phone" placeholder="Телефон">
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea id="text" rows="2" cols="15" placeholder="Ваш вопрос"></textarea>
+                    <textarea class="form-massage" id="text" rows="2" cols="15" placeholder="Ваш вопрос"></textarea>
                 </div>
                 <div class="btn-position">
                     <input class="btn" type="submit" value="Отправить">
